@@ -1,0 +1,16 @@
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
+        <fulltext default="none" attributes="false"/>
+        <range>
+            <create qname="ti:edition" type="xs:string"/>
+            <create qname="ti:translation" type="xs:string"/>
+            <create qname="ti:textgroup" type="xs:string"/>
+            <create qname="ti:TextInventory" type="xs:string"/>
+            <create qname="ti:work" type="xs:string"/>
+            <create qname="@urn" type="xs:string"/>
+            <create qname="@scope" type="xs:string"/>
+            <create qname="@xpath" type="xs:string"/>
+            <create qname="@n" type="xs:string"/>
+        </range>
+    </index>
+</collection>
